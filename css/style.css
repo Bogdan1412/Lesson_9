@@ -1,0 +1,266 @@
+/* &display=swap */
+@import "null.css";
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap );
+/* ===================================================*/
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ====================================================*/
+.container {
+	max-width: 840px;
+	margin: 0px auto;
+	padding: 0px 15px;
+}
+/* ================job================================== */
+.job {
+	padding: 20px 0px;
+	font-weight: 400;
+}
+.job__container {}
+.job__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 130%;
+	color: #1E212C;
+	margin: 0px 0px 26px 0px;
+}
+.job__date {
+	display: inline-block;
+	font-size: 16px;
+	line-height: 160%;
+	color: #787A80;
+}
+.date-left::before {
+	content: "";
+	display: inline-block;
+	background: url('../img/datum/Vector (Stroke).svg') 0px 0px / 16px no-repeat;
+	width: 24px;
+	height: 15px;
+}
+.date-right::before {
+	content: "";
+	display: inline-block;
+	background: url('../img/datum/Union.svg') 0px 0px / 16px no-repeat;
+	width: 24px;
+	height: 15px;
+	margin: 0px 0px 0px 20px;
+}
+.job__social {
+	color: #1E212C;
+	display: inline-block;
+	padding: 0px 0px 0px 423px;
+}
+.job__social a {
+	margin: 0px 0px 0px 15px;
+}
+.job__image {
+	padding: 40px 0px 60px 0px;
+}
+.job__text {
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+}
+.job__text p {
+	margin-bottom: 24px;
+}
+.text__thick {
+	font-size: 20px;
+	line-height: 150%;
+	color: #1E212C;
+	font-weight: 700;
+}
+.text__thick-bg {
+	padding-left: 48px;
+	background: url('../img/Quotation/Rectangle 268.svg') 0 26px no-repeat,url('../img/Quotation/Rectangle 268.svg') 16px 26px no-repeat;
+	padding-top: 24px;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1E212C;
+	font-weight: 700;
+}
+.text__menu {
+	font-size: 16px;
+	line-height: 120%;
+	color: #424551;
+	margin-bottom: 24px;
+}
+/* .menu__item {
+	background: url('../img/Vector.svg') 0 0 / 16px no-repeat;
+	min-height: 16px;
+} */
+.menu__item::before {
+	content: "";
+	display: inline-block;
+	width: 35px;
+	height: 20px;
+	background: url('../img/Vector.svg') 0 5px / 15px no-repeat;
+	margin: 0px 0px 0px -10px;
+}
+.text__bottom {
+	color: #424551;
+	font-size: 16px;
+	line-height: 160%;
+}
+/* ================game===================== */
+.game {
+}
+.game__container {
+	min-height: 100%;
+	background-color: #8691af;
+	min-height: 930px;
+	padding: 0px 15px;
+	margin: 30px auto 30px auto;
+}
+.container {}
+.game__header-text {
+	text-transform: uppercase;
+	padding: 20px 0px;
+}
+.game__test-1 {
+	width: 50px;
+	height: 50px;
+  background-color: rgb(200, 20, 20);
+  border-radius: 5px;
+}
+.game__test-1:hover + .game__test-2 {
+	visibility: visible;
+}
+.game__test-2 {
+	width: 400px;
+	height: 30px;
+	background-color: rgb(95, 49, 49);
+	border-radius: 5px;
+	visibility: hidden;
+}
+.game__test-2:hover + .game__test-3 {
+	visibility: visible;
+}
+.game__test-2:hover {
+	visibility: visible;
+}
+.game__test-3 {
+	width: 25px;
+	height: 100px;
+	background-color: rgb(44, 163, 8);
+	border-radius: 5px;
+	margin: 0px 0px 0px 375px;
+	visibility: hidden;
+}
+.game__test-3:hover + .game__test-4 {
+	visibility: visible;
+}
+.game__test-3:hover {
+	visibility: visible;
+}
+.game__test-4 {
+	margin: 0px 0px 0px 374px;
+	width: 300px;
+	height: 30px;
+	background-color: rgb(219, 187, 41);
+	border-radius: 5px;
+	visibility: hidden;
+}
+.game__test-4:hover + .game__test-5{
+	visibility: visible;
+}
+.game__test-4:hover {
+	visibility: visible;
+}
+.game__test-5{
+	width: 25px;
+	height: 100px;
+	background-color: rgb(128, 94, 192);
+	border-radius: 5px;
+	margin: 0px 0px 0px 650px;
+	visibility: hidden;
+}
+.game__test-5:hover + .game__test-6 {
+	visibility: visible;
+}
+.game__test-5:hover {
+	visibility: visible;
+}
+.game__test-6{
+	width: 300px;
+	height: 25px;
+	background-color: rgb(51, 20, 110);
+	border-radius: 5px;
+	margin: 0px 0px 0px 376px;
+	visibility: hidden;
+}
+.game__test-6:hover + .game__test-7 {
+	visibility: visible;
+}
+.game__test-6:hover {
+	visibility: visible;
+}
+.game__test-7{
+	width: 25px;
+	height: 100px;
+	background-color: rgb(228, 142, 30);
+	border-radius: 5px;
+	margin: 0px 0px 0px 376px;
+	visibility: hidden;
+}
+.game__test-7:hover + .game__test-8 {
+	visibility: visible;
+}
+.game__test-7:hover {
+	visibility: visible;
+}
+.game__test-7{
+	width: 25px;
+	height: 100px;
+	background-color: rgb(228, 142, 30);
+	border-radius: 5px;
+	margin: 0px 0px 0px 376px;
+	visibility: hidden;
+}
+.game__test-7:hover + .game__test-8 {
+	visibility: visible;
+}
+.game__test-7:hover {
+	visibility: visible;
+}
+.game__test-8 {
+	width: 200px;
+	height: 25px;
+	background-color: rgb(141, 110, 92);
+	border-radius: 5px;
+	margin: 0px 0px 0px 376px;
+	visibility: hidden;
+}
+.game__test-8:hover + .game__test-9 {
+	visibility: visible;
+}
+.game__test-8:hover {
+	visibility: visible;
+}
+.game__test-9 {
+	width: 25px;
+	height: 100px;
+	background-color: rgb(212, 91, 20);
+	border-radius: 5px;
+	margin: 0px 0px 0px 552px;
+	visibility: hidden;
+}
+.game__test-9:hover + .game__test-10{
+	visibility: visible;
+}
+.game__test-9:hover {
+	visibility: visible;
+}
+.game__test-10 {
+	height: 300px;
+	width: 400px;
+	background: url('../img/1.jpg') 0 0 / 300px no-repeat;
+	border-radius: 5px;
+	margin: 0px 0px 0px 400px;
+	visibility: hidden;
+}
+.game__test-10:hover {
+	visibility: visible;
+}
+
